@@ -6,7 +6,7 @@ import org.bukkit.entity.Player;
 public interface Hook {
 
     default boolean isOnCooldown(Player p) {
-        return VortexPearls.getInstance().isOnCooldown(p);
+        return false;
     }
 
 }
