@@ -2,9 +2,9 @@ package eu.vortexgg.vortexpearls.hook;
 
 import org.bukkit.entity.Player;
 
-public interface Hook {
+public class Hook {
 
-    default boolean isOnCooldown(Player p) {
+    public boolean isOnCooldown(Player p) {
         return false;
     }
 
