@@ -12,24 +12,24 @@ public class PrePearlLaunchEvent extends EntityEvent implements Cancellable {
 
     private boolean cancelled;
 
-    public PrePearlLaunchEvent(final Entity what) {
+    public PrePearlLaunchEvent(Entity what) {
         super(what);
     }
-    
+
     public boolean isCancelled() {
-	return cancelled;
+        return cancelled;
     }
 
     public void setCancelled(boolean cancelled) {
-	this.cancelled = cancelled;
-    }
-    
-    public static HandlerList getHandlerList() {
-        return handlers;
+        this.cancelled = cancelled;
     }
 
     public Projectile getEntity() {
         return (Projectile) entity;
+    }
+
+    public static HandlerList getHandlerList() {
+        return handlers;
     }
 
     public HandlerList getHandlers() {

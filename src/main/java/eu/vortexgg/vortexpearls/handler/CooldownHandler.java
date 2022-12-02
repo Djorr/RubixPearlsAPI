@@ -5,28 +5,28 @@ import org.bukkit.event.Listener;
 
 public class CooldownHandler implements Listener {
 
-    public boolean isOnCooldown(Player p) {
+    public boolean isOnCooldown(Player player) {
         return false;
     }
 
-    public void addCooldown(Player p) {
+    public void addCooldown(Player player) {
     }
 
-    public int getCooldownTimeSeconds(Player p) {
-        return (int) (getCooldownTime(p) / 1000);
+    public int getCooldownTimeSeconds(Player player) {
+        return (int) (getCooldownTime(player) / 1000);
     }
 
-    public long getCooldownTime(Player p) {
+    public long getCooldownTime(Player player) {
         return 0L;
     }
 
-    public void removeCooldown(Player p) {
+    public void removeCooldown(Player player) {
     }
 
-    public void startDisplaying(Player player) {
+    public void startDisplaying(Player playerlayer) {
     }
 
-    public void stopDisplaying(Player p) {
+    public void stopDisplaying(Player player) {
     }
 
 }

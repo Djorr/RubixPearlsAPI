@@ -5,7 +5,6 @@ import eu.vortexgg.vortexpearls.hook.Hook;
 import org.bukkit.entity.Player;
 
 public class VortexPearls {
-    public static boolean LAZARUS_ENABLED = false;
 
     public static VortexPearls getInstance() {
         return null;
@@ -26,7 +25,6 @@ public class VortexPearls {
     }
 
     public void reloadConfig() {
-
     }
 
 }

@@ -63,9 +63,14 @@ public enum Config {
             "BED_BLOCK", "ENDER_PORTAL_FRAME", "ANVIL", "ENCHANTMENT_TABLE", "DAYLIGHT_DETECTOR",
             "PISTON_STICKY_BASE", "PISTON_EXTENSION", "TRAP_DOOR", "IRON_TRAPDOOR"
     ), "Enabled crosspearl blocks", "Pearl-Checks.Thru.CrossPearl")
+
     ;
 
     Config(Object value, String comment, String configSection) {
+    }
+
+    public Object getValue() {
+        return null;
     }
 
     public boolean getBooleanValue() {
@@ -73,7 +78,7 @@ public enum Config {
     }
 
     public double getDoubleValue() {
-        return 0.0;
+        return 0;
     }
 
     public List<?> getListValue() {
@@ -91,10 +96,6 @@ public enum Config {
     }
 
     public String getStringValue() {
-        return null;
-    }
-
-    public Object getValue() {
         return null;
     }
 
