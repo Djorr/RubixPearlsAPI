@@ -1,5 +1,7 @@
 package eu.vortexgg.vortexpearls.config;
 
+import org.bukkit.plugin.IllegalPluginAccessException;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -70,40 +72,42 @@ public enum Config {
     }
 
     public Object getValue() {
-        return null;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public boolean getBooleanValue() {
-        return false;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public double getDoubleValue() {
-        return 0;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public List<?> getListValue() {
-        return null;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public int getIntValue() {
-        return 0;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public void setValue(Object value) {
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public void set(Object value) {
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public String getStringValue() {
-        return null;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public String getComment() {
-        return null;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
     public String getConfigSection() {
-        return null;
+        throw new IllegalPluginAccessException("VortexPearls not found");
     }
 }
