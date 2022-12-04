@@ -4,6 +4,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.player.PlayerEvent;
 
+/**
+ * Called when player is getting pearl refund
+ */
 public class PlayerPearlRefundEvent extends PlayerEvent {
 
     private static final HandlerList handlers = new HandlerList();

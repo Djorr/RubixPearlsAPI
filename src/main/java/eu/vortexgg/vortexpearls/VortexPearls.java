@@ -1,5 +1,6 @@
 package eu.vortexgg.vortexpearls;
 
+import eu.vortexgg.vortexpearls.api.event.PlayerPearlRefundEvent;
 import eu.vortexgg.vortexpearls.handler.CooldownHandler;
 import eu.vortexgg.vortexpearls.hook.Hook;
 import org.bukkit.entity.Player;
@@ -12,7 +13,7 @@ public class VortexPearls {
 
     /**
      * Get the instance of VortexPearls
-
+     *
      * @return instance of VortexPearls
      */
     public static VortexPearls getInstance() {
@@ -22,7 +23,8 @@ public class VortexPearls {
     /**
      * Get current hook of a plugin with
      * cooldown system
-
+     *
+     * @see Hook
      * @return current hook
      */
     public Hook getHook() {
@@ -40,7 +42,8 @@ public class VortexPearls {
 
     /**
      * Get cooldown handler
-
+     *
+     * @see CooldownHandler
      * @return cooldown handler
      */
     public CooldownHandler getCooldownHandler() {
@@ -54,7 +57,9 @@ public class VortexPearls {
      *     Returns an ender pearl if it's enabled
      *     Sends "return" message to player
      *     Executes "return" console command with %player% placeholder
-     *     Calls PlayerPearlRefundEvent if it's been used any where
+     *     Calls {@link PlayerPearlRefundEvent} if it's been used any where
+     *
+     *     @see PlayerPearlRefundEvent
      * </p>
      *
      * @param player Player to refund the pearl to

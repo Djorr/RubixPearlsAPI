@@ -6,6 +6,9 @@ import org.bukkit.event.Cancellable;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.entity.EntityEvent;
 
+/**
+ * Called before player launching an enderpearl
+ */
 public class PrePearlLaunchEvent extends EntityEvent implements Cancellable {
 
     private static final HandlerList handlers = new HandlerList();
@@ -24,6 +27,12 @@ public class PrePearlLaunchEvent extends EntityEvent implements Cancellable {
         this.cancelled = cancelled;
     }
 
+    /**
+     * Gets the EnderPearl provided class
+     *
+     * @see org.bukkit.entity.EnderPearl
+     * @return Projectile of ender pearl
+     */
     public Projectile getEntity() {
         return (Projectile) entity;
     }

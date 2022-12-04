@@ -21,7 +21,7 @@ public class Hook {
     /**
      * Removes ender pearl cooldown from player
      *
-     * @param player Player to remove an ender pearl cooldown
+     * @param player Player to remove ender pearl cooldown
      *
      */
     public void removeCooldown(Player player) {

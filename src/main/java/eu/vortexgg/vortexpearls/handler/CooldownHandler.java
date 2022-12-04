@@ -4,6 +4,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.IllegalPluginAccessException;
 
+/**
+ * Represents the CooldownHandler class
+ * and VortexPearls enderpearl cooldown system
+ */
 public class CooldownHandler implements Listener {
 
     /**
