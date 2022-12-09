@@ -71,23 +71,35 @@ public enum Config {
     Config(Object value, String comment, String configSection) {
     }
 
+    public String getComment() {
+        throw new IllegalPluginAccessException("VortexPearls not found");
+    }
+
+    public String getConfigSection() {
+        throw new IllegalPluginAccessException("VortexPearls not found");
+    }
+
     public Object getValue() {
         throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
-    public boolean getBooleanValue() {
+    public boolean asBoolean() {
         throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
-    public double getDoubleValue() {
+    public double asDouble() {
         throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
-    public List<?> getListValue() {
+    public List<?> asList() {
         throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
-    public int getIntValue() {
+    public int asInt() {
+        throw new IllegalPluginAccessException("VortexPearls not found");
+    }
+
+    public String asString() {
         throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
@@ -99,15 +111,4 @@ public enum Config {
         throw new IllegalPluginAccessException("VortexPearls not found");
     }
 
-    public String getStringValue() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
-    }
-
-    public String getComment() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
-    }
-
-    public String getConfigSection() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
-    }
 }
