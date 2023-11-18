@@ -1,4 +1,4 @@
-package eu.vortexgg.vortexpearls.config;
+package nl.rubixdevelopment.rubixpearls.config;
 
 import org.bukkit.plugin.IllegalPluginAccessException;
 
@@ -31,14 +31,14 @@ public enum Config {
     REFUND_IF_SUFFOCATING(true, "Refunds if pearl and player is in block", "Pearl-Checks.Prevent-Suffocation.RefundIfSuffocating"),
     REFUND_RISKY_PEARL(true, "Refunds pearl that can get the player suffocating", "Pearl-Checks.Prevent-Suffocation.RefundRiskyPearl"),
 
-    COOLDOWN_ENABLED(true, "Enables VortexPearls cooldown system", "cooldown.enabled"),
+    COOLDOWN_ENABLED(true, "Enables RubixPearls cooldown system", "cooldown.enabled"),
     COOLDOWN_KOHI_DISPLAY_ENABLED(true, null, "cooldown.kohiDisplay.enabled"),
     COOLDOWN_KOHI_DISPLAY("&dEnderpearl&7: &f%time%", "Displays cooldown time in the hotbar of item name", "cooldown.kohiDisplay.display"),
     COOLDOWN_CANT_USE("&7(&d&l!&7) &fYou can't use Enderpearl for another &5%time% seconds&f!", null, "cooldown.message.cantUse"),
     COOLDOWN_NOW_CAN("&7(&d&l!&7) &fYou can now use Enderpearl!", null, "cooldown.message..nowCan"),
     COOLDOWN_DURATION(15.0, "Duration of cooldown. Doubles can be used.", "cooldown.duration"),
 
-    REFUND_REMOVE_COOLDOWN(true, "Removes VortexPearls cooldown on refund", "refund.removeCooldown"),
+    REFUND_REMOVE_COOLDOWN(true, "Removes RubixPearls cooldown on refund", "refund.removeCooldown"),
     REFUND_LAZARUS_REMOVE_COOLDOWN(false, "Removes Lazarus's cooldown silently without notify in console", "refund.removeSilentLazarusCooldown"),
     REFUND_RETURN_PEARL(true, "Returns pearl on refund", "refund.returnPearl"),
     REFUND_MESSAGE("&7(&d&l!&7) &fYour pearl was refunded!", null, "refund.message"),
@@ -72,43 +72,43 @@ public enum Config {
     }
 
     public String getComment() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public String getConfigSection() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public Object getValue() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public boolean asBoolean() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public double asDouble() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public List<?> asList() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public int asInt() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public String asString() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public void setValue(Object value) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     public void set(Object value) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
 }

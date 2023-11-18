@@ -1,23 +1,23 @@
-package eu.vortexgg.vortexpearls;
+package nl.rubixdevelopment.rubixpearls;
 
-import eu.vortexgg.vortexpearls.api.event.PlayerPearlRefundEvent;
-import eu.vortexgg.vortexpearls.handler.CooldownHandler;
-import eu.vortexgg.vortexpearls.hook.Hook;
+import nl.rubixdevelopment.rubixpearls.api.event.PlayerPearlRefundEvent;
+import nl.rubixdevelopment.rubixpearls.handler.CooldownHandler;
+import nl.rubixdevelopment.rubixpearls.hook.Hook;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.IllegalPluginAccessException;
 
 /**
- * Represents the VortexPearls main class
+ * Represents the RubixPearls main class
  */
-public class VortexPearls {
+public class RubixPearls {
 
     /**
-     * Get the instance of VortexPearls
+     * Get the instance of RubixPearls
      *
-     * @return instance of VortexPearls
+     * @return instance of RubixPearls
      */
-    public static VortexPearls getInstance() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+    public static RubixPearls getInstance() {
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -28,16 +28,16 @@ public class VortexPearls {
      * @return current hook
      */
     public Hook getHook() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
-     * Set the current hook for VortexPearls
+     * Set the current hook for RubixPearls
      *
      * @param hook Hook to change
      */
     public void setHook(Hook hook) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -47,7 +47,7 @@ public class VortexPearls {
      * @return cooldown handler
      */
     public CooldownHandler getCooldownHandler() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -65,18 +65,18 @@ public class VortexPearls {
      * @param player Player to refund the pearl to
      */
     public void refundPearl(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
-     * Reloads config of VortexPearls
+     * Reloads config of RubixPearls
      * <p>
      *     Reloads config options
      *     Reloads config comments and header
      * </p>
      */
     public void reloadConfig() {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
 }

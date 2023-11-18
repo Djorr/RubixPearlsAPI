@@ -1,4 +1,4 @@
-package eu.vortexgg.vortexpearls.handler;
+package nl.rubixdevelopment.rubixpearls.handler;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
@@ -6,7 +6,7 @@ import org.bukkit.plugin.IllegalPluginAccessException;
 
 /**
  * Represents the CooldownHandler class
- * and VortexPearls enderpearl cooldown system
+ * and RubixPearls enderpearl cooldown system
  */
 public class CooldownHandler implements Listener {
 
@@ -18,7 +18,7 @@ public class CooldownHandler implements Listener {
      * @return whether this player is on ender pearl cooldown or not
      */
     public boolean isOnCooldown(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -29,7 +29,7 @@ public class CooldownHandler implements Listener {
      *
      */
     public void addCooldown(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -40,7 +40,7 @@ public class CooldownHandler implements Listener {
      * @return remaining seconds of cooldown or zero
      */
     public int getCooldownTimeSeconds(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -51,7 +51,7 @@ public class CooldownHandler implements Listener {
      * @return remaining millis of cooldown or zero
      */
     public long getCooldownTime(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -61,7 +61,7 @@ public class CooldownHandler implements Listener {
      *
      */
     public void removeCooldown(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -72,7 +72,7 @@ public class CooldownHandler implements Listener {
      *
      */
     public void startDisplaying(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
     /**
@@ -82,7 +82,7 @@ public class CooldownHandler implements Listener {
      *
      */
     public void stopDisplaying(Player player) {
-        throw new IllegalPluginAccessException("VortexPearls not found");
+        throw new IllegalPluginAccessException("RubixPearls not found");
     }
 
 }

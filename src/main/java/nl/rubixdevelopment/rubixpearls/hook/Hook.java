@@ -1,4 +1,4 @@
-package eu.vortexgg.vortexpearls.hook;
+package nl.rubixdevelopment.rubixpearls.hook;
 
 import org.bukkit.entity.Player;
 
@@ -27,5 +27,13 @@ public class Hook {
     public void removeCooldown(Player player) {
         throw new IllegalArgumentException("Hook not found");
     }
+
+    /**
+     * Adds ender pearl cooldown to player
+     *
+     * @param player Player to add ender pearl cooldown
+     *
+     */
+    public void addCooldown(Player player) { throw new IllegalArgumentException("Hook not found"); }
 
 }

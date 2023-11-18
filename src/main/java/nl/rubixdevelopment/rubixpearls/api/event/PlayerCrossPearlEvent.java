@@ -1,4 +1,4 @@
-package eu.vortexgg.vortexpearls.api.event;
+package nl.rubixdevelopment.rubixpearls.api.event;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

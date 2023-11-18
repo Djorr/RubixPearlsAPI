@@ -1,5 +1,5 @@
-# VortexPearlsAPI
-API for very known VortexPearls plugin
+# RubixPearlsAPI
+API for very known RubixPearls plugin
 
-# VortexPearls: https://mc-market.org/resources/20987
+# RubixPearls: https://mc-market.org/resources/20987
 
